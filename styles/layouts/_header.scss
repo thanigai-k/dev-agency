@@ -1,0 +1,17 @@
+.the-header {
+  background: #070d18;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  > .container {
+    justify-content: space-between;
+  }
+  nav {
+    gap: 50px;
+  }
+  &.is-fixed {
+    position: fixed;
+  }
+}

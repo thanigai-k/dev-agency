@@ -1,0 +1,23 @@
+{
+  "header": {
+    "mainNav": [
+      {
+        "text": "Services",
+        "href": "/our-services"
+      },
+      {
+        "text": "Our Team",
+        "href": "/our-team"
+      },
+      {
+        "text": "Blog",
+        "href": "https://medium.com/",
+        "isExternal": true
+      }
+    ],
+    "login": {
+      "text": "Login",
+      "href": "/login"
+    }
+  }
+}

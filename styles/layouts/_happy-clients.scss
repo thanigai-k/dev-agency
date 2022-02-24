@@ -1,0 +1,22 @@
+.happy-clients {
+  background-color: $black;
+  color: white;
+  .container.fx {
+    justify-content: space-between;
+  }
+  h2 {
+    text-align: center;
+    > * {
+      display: block;
+    }
+    .number {
+      font-weight: 500;
+      font-size: 65px;
+      line-height: 100px;
+    }
+    .label {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
