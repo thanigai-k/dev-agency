@@ -1,0 +1,52 @@
+.the-hero {
+  &.is-dark {
+    background: $black;
+    color: white;
+  }
+  &.is-common {
+    text-align: center;
+  }
+}
+
+.home-hero {
+  position: relative;
+  margin-bottom: 40px;
+  h1 {
+    font-weight: 700;
+  }
+  .container.fx {
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.hero-curve-bottom {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  transform: translateY(100%);
+}
+.anim {
+  animation: 3s ease-in fadeColor forwards;
+}
+.animFill {
+  animation: 3s ease-in fadeFill forwards;
+}
+@keyframes fadeColor {
+  0% {
+    background-color: $brand-color;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+
+@keyframes fadeFill {
+  0% {
+    fill: $brand-color;
+  }
+  100% {
+    fill: #fff;
+  }
+}

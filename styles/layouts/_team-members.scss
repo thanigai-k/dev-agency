@@ -1,0 +1,45 @@
+$border: 1px solid #ddd;
+.team-members {
+  .card {
+    text-align: center;
+    > * {
+      border: $border;
+      border-radius: 8px;
+      background: white;
+    }
+    figure {
+      width: 120px;
+      height: 120px;
+      display: inline-block;
+      overflow: hidden;
+      border-radius: 50%;
+      box-shadow: 0 3px 8px 0 #0002;
+      img{
+        object-fit: cover;
+      }
+    }
+    h4 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    p {
+      color: #a1a1b0;
+      font-size: 13px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+    .handles {
+      display: flex;
+      width: 100%;
+      border-top: $border;
+      > * {
+        padding: 20px 0;
+        width: 33%;
+        &.has-border {
+          border-right: $border;
+        }
+      }
+    }
+  }
+}

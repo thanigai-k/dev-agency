@@ -1,0 +1,29 @@
+.the-footer {
+  background: $black;
+  position: relative;
+  .container {
+    justify-content: space-between;
+  }
+  .main-nav {
+    gap: 60px;
+    li {
+      line-height: 32px;
+    }
+  }
+  .social-nav {
+    align-self: flex-end;
+  }
+  .logo-wrap {
+    p {
+      max-width: 300px;
+    }
+  }
+}
+
+.footer-curve-top {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 100%;
+  transform: translateY(-100%);
+}

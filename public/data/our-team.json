@@ -1,0 +1,65 @@
+{
+  "seo": {
+    "title": "Our Team | Dev Agency",
+    "description": "We help you to build your online business | Dev Agency",
+    "keywords": "agency, website, marketing, growth, social media,"
+  },
+  "content": {
+    "hero": {
+      "title": "Meet our Team",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, deserunt!"
+    },
+    "team": {
+      "list": [
+        {
+          "avatar": {
+            "url": "/images/avatar/krishnakanth.png",
+            "alt": "Krishnakanth UI Lead"
+          },
+          "title": "Krishnakanth",
+          "desc": "Client Manager"
+        },
+        {
+          "avatar": {
+            "url": "/images/avatar/solai.jpeg",
+            "alt": "Solai App Developer"
+          },
+          "title": "Solai",
+          "desc": "App Developer"
+        },
+        {
+          "avatar": {
+            "url": "/images/avatar/thanigaivel.jpeg",
+            "alt": "Thanigaivel Graphic Designer"
+          },
+          "title": "Thanigaivel",
+          "desc": "Graphic Designer"
+        },
+        {
+          "avatar": {
+            "url": "/images/avatar/manjubharkavi.png",
+            "alt": "Manjubharkavi Marketing Analyst"
+          },
+          "title": "Manjubharkavi",
+          "desc": "Marketing Analyst"
+        },
+        {
+          "avatar": {
+            "url": "/images/avatar/haneef.jpeg",
+            "alt": "Haneef UI/UX Designer"
+          },
+          "title": "Haneef",
+          "desc": "UI/UX Designer"
+        },
+        {
+          "avatar": {
+            "url": "/images/avatar/shanmuganand.jpeg",
+            "alt": "Shanmuganand Web Developer"
+          },
+          "title": "Shanmuganand",
+          "desc": "Web Developer"
+        }
+      ]
+    }
+  }
+}
